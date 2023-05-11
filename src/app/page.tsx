@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import Images from '@/components/Images'
@@ -18,9 +17,7 @@ export default function Home() {
       <Info />
       <Pricing />
       <Form />
-
       <Footer />
-
     </main >
   )
 }
