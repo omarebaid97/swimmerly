@@ -50,7 +50,7 @@ export default function Form() {
     return (
         <>
             {mounted && (
-                <form className="max-w-xl w-full mb-12" id="get-started" onSubmit={handleSubmit}>
+                <form className="max-w-xl w-full mb-12 p-5" id="get-started" onSubmit={handleSubmit}>
                     {!sent && (
                         <div className="form-control space-y-5">\
                             <h2 className="text-3xl font-bold">Contact Us</h2>

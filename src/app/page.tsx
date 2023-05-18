@@ -7,6 +7,7 @@ import Footer from '@/components/Footer'
 import Info from '@/components/Info'
 import Pricing from '@/components/Pricing'
 import Form from '@/components/Form'
+import Table from '@/components/Table'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <Images />
       <Info />
+      <Table />
       <Pricing />
       <Form />
       <Footer />
