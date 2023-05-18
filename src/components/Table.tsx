@@ -14,26 +14,26 @@ export default function Navbar() {
                 <tbody>
                     <tr>
                         <td>4:00 PM - 4:40 PM</td>
-                        <td>5:05 PM - 5:45 PM</td>
-                        <td>6:10 PM - 6:50 PM</td>
-                        <td>7:15 PM - 7:55 PM</td>
-                    </tr>
-                    <tr>
                         <td>4:00 PM - 4:40 PM</td>
-                        <td>5:05 PM - 5:45 PM</td>
-                        <td>6:10 PM - 6:50 PM</td>
-                        <td>7:15 PM - 7:55 PM</td>
-                    </tr>
-                    <tr>
                         <td>4:00 PM - 4:40 PM</td>
-                        <td>5:05 PM - 5:45 PM</td>
-                        <td>6:10 PM - 6:50 PM</td>
-                        <td></td>
+                        <td>9:00 AM - 9:40 PM</td>
                     </tr>
                     <tr>
-                        <td>9:00 AM - 9:40 AM</td>
+                        <td>5:05 PM - 5:45 PM</td>
+                        <td>5:05 PM - 5:45 PM</td>
+                        <td>5:05 PM - 5:45 PM</td>
                         <td>10:05 AM - 10:45 AM</td>
+                    </tr>
+                    <tr>
+                        <td>6:10 PM - 6:50 PM</td>
+                        <td>6:10 PM - 6:50 PM</td>
+                        <td>6:10 PM - 6:50 PM</td>
                         <td>11:10 AM - 11:50 AM</td>
+                    </tr>
+                    <tr>
+                        <td>7:15 PM - 7:55 PM</td>
+                        <td>7:15 PM - 7:55 PM</td>
+                        <td></td>
                         <td></td>
                     </tr>
                 </tbody>
@@ -48,19 +48,19 @@ export default function Navbar() {
                 <tbody>
                     <tr>
                         <td>4:00 PM - 4:40 PM</td>
-                        <td>5:05 PM - 5:45 PM</td>
-                    </tr>
-                    <tr>
                         <td>4:00 PM - 4:40 PM</td>
+                    </tr>
+                    <tr>
+                        <td>5:05 PM - 5:45 PM</td>
                         <td>5:05 PM - 5:45 PM</td>
                     </tr>
                     <tr>
-                        <td>4:00 PM - 4:40 PM</td>
-                        <td>5:05 PM - 5:45 PM</td>
+                        <td>6:10 PM - 6:50 PM</td>
+                        <td>6:10 PM - 6:50 PM</td>
                     </tr>
                     <tr>
-                        <td>9:00 AM - 9:40 AM</td>
-                        <td>10:05 AM - 10:45 AM</td>
+                        <td>7:15 PM - 7:55 PM</td>
+                        <td>7:15 PM - 7:55 PM</td>
                     </tr>
                 </tbody>
             </table>
@@ -73,19 +73,19 @@ export default function Navbar() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>6:10 PM - 6:50 PM</td>
-                        <td>7:15 PM - 7:55 PM</td>
+                        <td>4:00 PM - 4:40 PM</td>
+                        <td>9:00 AM - 9:40 PM</td>
+                    </tr>
+                    <tr>
+                        <td>5:05 PM - 5:45 PM</td>
+                        <td>10:05 AM - 10:45 AM</td>
                     </tr>
                     <tr>
                         <td>6:10 PM - 6:50 PM</td>
-                        <td>7:15 PM - 7:55 PM</td>
-                    </tr>
-                    <tr>
-                        <td>6:10 PM - 6:50 PM</td>
-                        <td></td>
-                    </tr>
-                    <tr>
                         <td>11:10 AM - 11:50 AM</td>
+                    </tr>
+                    <tr>
+                        <td></td>
                         <td></td>
                     </tr>
                 </tbody>

@@ -4,19 +4,19 @@ import mail from "@sendgrid/mail";
 mail.setApiKey(process.env.SENDGRID_API_KEY!);
 
 type ResponseData = {
-    status?: string;
-    message?: string;
+  status?: string;
+  message?: string;
 };
 
 export async function POST(request: Request) {
-    let response: ResponseData = {};
-    const body = await request.json();
+  let response: ResponseData = {};
+  const body = await request.json();
 
-    const data = {
-        to: "omar.ebaid@decodeadvertising.com",
-        from: "o.ebaid97@gmail.com",
-        subject: "New Submission from Swimmerly",
-        html: `
+  const data = {
+    to: "swimmerly23@gmail.com",
+    from: "o.ebaid97@gmail.com",
+    subject: "New Submission from Swimmerly",
+    html: `
           <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
           <html lang="en">
           <head>
@@ -40,23 +40,23 @@ export async function POST(request: Request) {
           </body>
           </html>
         `,
-    };
+  };
 
-    await mail
-        .send(data)
-        .then(() => {
-            response = {
-                status: 'success',
-                message: "Your message was sent. I'll be in contact shortly.",
-            };
-        })
-        .catch((error) => {
-            response = {
-                status: 'error',
-                message: `Message failed to send with error, ${error}`,
-            };
-        });
+  await mail
+    .send(data)
+    .then(() => {
+      response = {
+        status: 'success',
+        message: "Your message was sent. I'll be in contact shortly.",
+      };
+    })
+    .catch((error) => {
+      response = {
+        status: 'error',
+        message: `Message failed to send with error, ${error}`,
+      };
+    });
 
-    return NextResponse.json(response);
+  return NextResponse.json(response);
 }
 
