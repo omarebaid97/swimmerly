@@ -20,7 +20,7 @@ export default function Pricing() {
                         <h2 className="card-title">2 Group Lessons Weekly</h2>
                         <p>Please note that group lessons are a minimum of 3 students and a maximum of 6.</p>
                         <div className="card-actions justify-end">
-                            <h3 className="card-title">$150/Student/Month</h3>
+                            <h3 className="card-title">$160/Student/Month</h3>
                         </div>
                         <Link href='#get-started' className="btn btn-secondary w-fit self-end">Join Now</Link>
                     </div>
@@ -32,7 +32,7 @@ export default function Pricing() {
                         <h2 className="card-title">1 Private Lesson Weekly</h2>
                         <p>Please note that private lessons have a maximum of 2 children.</p>
                         <div className="card-actions justify-end">
-                            <h3 className="card-title">$125/Student/Month</h3>
+                            <h3 className="card-title">$140/Student/Month</h3>
                         </div>
                         <Link href='#get-started' className="btn btn-accent w-fit self-end">Join Now</Link>
                     </div>
@@ -42,7 +42,7 @@ export default function Pricing() {
                         <h2 className="card-title">2 Private Lessons Weekly</h2>
                         <p>Please note that private lessons have a maximum of 2 children.</p>
                         <div className="card-actions justify-end">
-                            <h3 className="card-title">$240/Student/Month</h3>
+                            <h3 className="card-title">$280/Student/Month</h3>
                         </div>
                         <Link href='#get-started' className="btn btn-accent w-fit self-end">Join Now</Link>
                     </div>
