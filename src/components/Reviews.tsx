@@ -28,6 +28,35 @@ export default function Reviews() {
               educational to us as parents. We are so happy to have had this
               great experience with Coach Abdul and look forward to working with
               him again in the future!
+              <br />
+              <div className="rating mt-5">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+              </div>
             </blockquote>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <button className="btn btn-circle" onClick={handlePrev}>
@@ -50,7 +79,35 @@ export default function Reviews() {
               which helped my kids overcome their nervousness about learning to
               swim. Overall, we had a wonderful experience with him and would
               highly recommend him to anyone looking to improve their swimming
-              skills.
+              skills. <br />
+              <div className="rating mt-5">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+              </div>
             </blockquote>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <button className="btn btn-circle" onClick={handlePrev}>
@@ -70,7 +127,35 @@ export default function Reviews() {
               swim. He was able to teach the correct skills and make Z
               comfortable in the water. Abdul has a lot of patience and works
               great with young kids! We are exciting to continue swim lessons
-              with Abdul this summer
+              with Abdul this summer <br />
+              <div className="rating mt-5">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+              </div>
             </blockquote>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <button className="btn btn-circle" onClick={handlePrev}>
@@ -97,7 +182,35 @@ export default function Reviews() {
               process. At the end of the class he gives me a brief summary about
               what he taught them, what they were able to do, and what he will
               teach them next class. I recommend taking your kids to Coach
-              Abdelrahman’s swimming classes; he’s a great coach!
+              Abdelrahman’s swimming classes; he’s a great coach! <br />
+              <div className="rating mt-5">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  className="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+              </div>
             </blockquote>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <button className="btn btn-circle" onClick={handlePrev}>
