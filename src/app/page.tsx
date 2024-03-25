@@ -8,6 +8,7 @@ import Info from '@/components/Info'
 import Pricing from '@/components/Pricing'
 import Form from '@/components/Form'
 import Table from '@/components/Table'
+import Reviews from '@/components/Reviews'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Images />
       <Info />
       {/* <Table /> */}
+      <Reviews />
       <Pricing />
       <Form />
       <Footer />

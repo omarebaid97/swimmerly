@@ -52,7 +52,7 @@ export default function Form() {
             {mounted && (
                 <form className="max-w-xl w-full mb-12 p-5" id="get-started" onSubmit={handleSubmit}>
                     {!sent && (
-                        <div className="form-control space-y-5">\
+                        <div className="form-control space-y-5">
                             <h2 className="text-3xl font-bold">Contact Us</h2>
                             <p>Fill out the form below to get started!</p>
                             <input type="text" name="name" placeholder="Name" className="input input-bordered w-full" onChange={(e) => { setName(e.target.value); }} />
