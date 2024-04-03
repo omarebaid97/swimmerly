@@ -1,55 +1,71 @@
-'use client'
+"use client";
 
 import { useState, useEffect } from "react";
 
 export default function Form() {
-    const [mounted, setMounted] = useState(false);
-    const [email, setEmail] = useState("");
-    const [name, setName] = useState("");
-    const [phone, setPhone] = useState("");
-    const [age, setAge] = useState("");
-    const [message, setMessage] = useState("");
-    const [sending, setSending] = useState(false);
-    const [sent, setSent] = useState(false);
+  // const [mounted, setMounted] = useState(false);
+  // const [email, setEmail] = useState("");
+  // const [name, setName] = useState("");
+  // const [phone, setPhone] = useState("");
+  // const [age, setAge] = useState("");
+  // const [message, setMessage] = useState("");
+  // const [sending, setSending] = useState(false);
+  // const [sent, setSent] = useState(false);
 
-    useEffect(() => {
-        setMounted(true)
-    }, [])
+  // useEffect(() => {
+  //     setMounted(true)
+  // }, [])
 
-    const handleSubmit = async (e: { preventDefault: () => void; }) => {
-        e.preventDefault();
-        setSending(true);
+  // const handleSubmit = async (e: { preventDefault: () => void; }) => {
+  //     e.preventDefault();
+  //     setSending(true);
 
-        const res = await fetch("/api/email", {
-            body: JSON.stringify({
-                name: name,
-                email: email,
-                phone: phone,
-                age: age,
-                message: message,
-            }),
-            headers: {
-                "Content-Type": "application/json",
-            },
-            method: "POST",
-        });
+  //     const res = await fetch("/api/email", {
+  //         body: JSON.stringify({
+  //             name: name,
+  //             email: email,
+  //             phone: phone,
+  //             age: age,
+  //             message: message,
+  //         }),
+  //         headers: {
+  //             "Content-Type": "application/json",
+  //         },
+  //         method: "POST",
+  //     });
 
-        const { error, status } = await res.json();
+  //     const { error, status } = await res.json();
 
-        if (status === "success") {
-            setSending(false);
-            setSent(true);
-        }
+  //     if (status === "success") {
+  //         setSending(false);
+  //         setSent(true);
+  //     }
 
-        if (error) {
-            console.log(error);
-            return;
-        }
-    };
+  //     if (error) {
+  //         console.log(error);
+  //         return;
+  //     }
+  // };
 
-    return (
-        <>
-            {mounted && (
+  return (
+    <div className="w-full md:mx-20 p-20 bg-base-200">
+      <div className="form-control space-y-5">
+        <h2 className="text-3xl font-bold">Contact Us</h2>
+        <p>Fill out the form below to get started!</p>
+        <div className="h-[1100px]">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSftwrjbscU5X-tZjgY3ILZwvQCpWQtXeexJEVv8ge2CeF3leA/viewform?embedded=true"
+            className="bg-base-20 mx-auto sm:min-w-[666px] min-w-full"
+            style={{
+              width: "auto",
+              height: "100%",
+            }}
+          >
+            Loading…
+          </iframe>
+        </div>
+      </div>
+      {/* {mounted && (
                 <form className="max-w-xl w-full mb-12 p-5" id="get-started" onSubmit={handleSubmit}>
                     {!sent && (
                         <div className="form-control space-y-5">
@@ -65,8 +81,7 @@ export default function Form() {
                     )}
                     {sent && <h2 className="text-xl text-center">Thank you for getting in Touch! We will get back to you soon.</h2>}
                 </form>
-            )}
-        </>
-    )
+            )} */}
+    </div>
+  );
 }
-
